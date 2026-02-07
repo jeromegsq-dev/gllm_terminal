@@ -1,0 +1,29 @@
+# API Keys and secrets
+.env
+.env.local
+*.key
+*.pem
+secrets/
+
+# Mistral API key file (if stored locally)
+.mistral_api_key
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Testing
+test_*.sh
+test_*.zsh
+
+.claude
