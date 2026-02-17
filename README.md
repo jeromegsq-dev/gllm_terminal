@@ -1,12 +1,14 @@
-# RememberCommands - Natural Language to Shell Commands
+# RememberCommands - Natural Language to Shell Commands (ZSH)
 
-Translate natural language into shell commands directly in your terminal using [Codestral](https://mistral.ai/news/codestral) (Mistral AI's code-specialized model). The suggested command is pre-filled on your command line so you can review it before pressing Enter.
+A **ZSH / Oh My Zsh plugin** that translates natural language into shell commands using [Codestral](https://mistral.ai/news/codestral) (Mistral AI's code-specialized model). The suggested command is pre-filled on your command line so you can review it before pressing Enter.
+
+> **Why?** I liked WARP's AI command generation, but I didn't want to give up my ZSH + Oh My Zsh setup just for that one feature. So I built this instead — same idea, works right in your existing terminal.
 
 https://github.com/user-attachments/assets/847def64-2822-4754-a1c1-fe602b57c011
 
 ## Prerequisites
 
-- [Oh My Zsh](https://ohmyz.sh/) installed
+- **ZSH** with [Oh My Zsh](https://ohmyz.sh/) installed
 - `curl` (pre-installed on macOS)
 - `jq` - install with `brew install jq`
 - A [Codestral API key](https://console.mistral.ai) (onglet "Codestral" sur console.mistral.ai)
